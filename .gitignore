@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/meu-projeto/node_modules/
+/meu-projeto/.pnp
+/meu-projeto/.pnp.js
+
+# testing
+/meu-projeto/coverage
+
+# production
+/meu-projeto/build
+
+# misc
+/meu-projeto/.DS_Store
+/meu-projeto/.env.local
+/meu-projeto/.env.development.local
+/meu-projeto/.env.test.local
+/meu-projeto/.env.production.local
+
+/meu-projeto/npm-debug.log*
+/meu-projeto/yarn-debug.log*
+/meu-projeto/yarn-error.log*
