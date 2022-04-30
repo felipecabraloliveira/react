@@ -1,23 +1,15 @@
 //import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import Evento from './components/Evento'
+import Form from './components/Form'
 
 function App() {
-
-  const name = 'Felipe Cabral'
-  const newName = name.toUpperCase()
-
-  function sum(a, b) {
-    return a + b;
-  }
-
-  const url = 'https://via.placeholder.com/150'
-
+  const nome = "Maria"
   return (
     <div className="App">
-      <h1>Olá React!</h1>
-      <p>Olá, {newName}</p>
-      <p>Soma: {sum(7, 3)}</p>
-      <img src={url} alt="Minha Imagem" />
+      <h1>Testando Eventos</h1>
+      < Evento numero="1" />
+      <Form />
     </div>
   );
 }
